@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(90deg, rgb(252, 156, 209) 0%, rgb(139,102,241) 100%);
+}
+
+.container{
+    background: rgba(255, 255, 255, 0.6);
+    padding: 40px;
+    border-radius: 8px;
+    margin: 60px 40px;
+}
+header{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 0px;
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+}
+form{
+    text-align: center;
+}
+input{
+    border-radius: 5px;
+    padding: 5px 7px;
+}
+.poem{
+    padding: 30px;
+    text-align: center;
+    /* margin: 60px 40px; */
+}
