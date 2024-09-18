@@ -48,6 +48,7 @@ input.submit{
     background-color: rgb(248, 140, 192);
     color: rgb(248, 242, 245);
     margin-left: 5px;
+    margin-top: 12px;
     width: 100px;
 }
 .poem{
