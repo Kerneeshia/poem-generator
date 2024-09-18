@@ -6,10 +6,9 @@
     <link rel="stylesheet" href="src/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>  
     <title>Poem</title>
 </head>
 <body>
@@ -19,8 +18,8 @@
     </header>
 
    <main>
-    <form>
-        <input class="text" type="text" placeholder="Enter a topic " autofocus required autocomplete="off"> <input class="submit" type="submit">
+    <form id="generate-poem">
+        <input class="text" id="text-input" type="text" placeholder="Enter a topic " autofocus required autocomplete="off"> <input class="submit" id="submit-button" type="submit">
     </form>
     <div class="poem"></div>
     </main> 
